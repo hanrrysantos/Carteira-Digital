@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 @Entity
@@ -65,7 +66,7 @@ public class User implements Serializable {
     public List<Transacao> getTransacoes() {
         return transacoes;
     }
-    
+
     public List<Categoria> getCategorias() {
         return categorias;
     }
